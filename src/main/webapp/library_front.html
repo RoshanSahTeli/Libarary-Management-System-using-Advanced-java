@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+		body{
+			margin: 0px;
+		}
+		.add_link{
+			font-size: 15px;
+			text-decoration: none;
+			padding: 10px;
+			background-color:#FF7F50;
+			color: white;
+			border-radius: 10px;
+		}
+		.add_link:hover{
+			background-color:grey;
+			color:white;
+		}
+		.container{
+			height: 250px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		 .card {
+            width: 200px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            margin:10px;
+            display: inline-block;
+            vertical-align: top;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .card:hover {
+            background-color: #f4f4f4;
+        }
+		
+	</style>
+		
+</head>
+<body>
+	<center>
+		<div class="container">
+		  <div class="card">
+        <a href='./csit.jsp?name=./csit1.jsp'>
+            <h2>Bsc CSIT</h2>
+            <p>This is card 1. Click to visit example.com.</p>
+        </a>
+    </div>
+    <div class="card">
+        <a href="https://example.org">
+            <h2>BCA</h2>
+            <p>This is card 2. Click to visit example.org.</p>
+        </a>
+    </div>
+    <div class="card">
+        <a href="https://example.net">
+            <h2>BIM</h2>
+            <p>This is card 3. Click to visit example.net.</p>
+        </a>
+    </div>
+    <div class="card">
+        <a href="https://example.info">
+            <h2>BHM</h2>
+            <p>This is card 4. Click to visit example.info.</p>
+        </a>
+    </div>
+	    </div>
+	    	<div style="margin: 15px;">
+			
+    <a href="add_book.jsp  " class="add_link">Add Books</a>
+     <a href="issue_book.jsp  " class="add_link">Issue Book</a>
+    </div>
+
+    </center>
+</body>
+</html>
